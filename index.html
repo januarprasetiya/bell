@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bel Sederhana</title>
+</head>
+<body>
+    <h1>Bel Sederhana</h1>
+    <button onclick="playBell()">Bunyikan Bel</button>
+    <audio id="bellSound" src="https://www.soundjay.com/button/sounds/button-3.mp3"></audio>
+
+    <script>
+        function playBell() {
+            var bell = document.getElementById("bellSound");
+            bell.play();
+        }
+    </script>
+</body>
+</html>
